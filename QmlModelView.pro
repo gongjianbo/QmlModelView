@@ -1,7 +1,7 @@
 TEMPLATE = subdirs
 CONFIG += ordered
 
-SUBDIRS += TableView
+SUBDIRS += ListView TableView
 
 OTHER_FILES += LICENSE \
         README.md \
