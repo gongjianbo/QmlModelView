@@ -34,12 +34,12 @@ void EasyTableModel::setInitData(const QJsonArray &jsonArr)
 
 void EasyTableModel::classBegin()
 {
-    qDebug()<<"EasyTableModel::classBegin()";
+    //qDebug()<<"EasyTableModel::classBegin()";
 }
 
 void EasyTableModel::componentComplete()
 {
-    qDebug()<<"EasyTableModel::componentComplete()";
+    //qDebug()<<"EasyTableModel::componentComplete()";
     _completed=true;
     if(!_initData.isEmpty()){
         loadData(_initData);

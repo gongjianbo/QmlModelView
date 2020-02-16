@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>TableWidget.qml</file>
+        <file>EasyTableWidget.qml</file>
     </qresource>
 </RCC>
