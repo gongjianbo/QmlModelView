@@ -5,7 +5,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("【QQ交流群：647637553】")
+    title: qsTr("TableView")
 
     Rectangle{
         anchors.fill: parent
